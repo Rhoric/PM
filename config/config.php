@@ -4,7 +4,7 @@
 	define('DB_HOST', 'db4free.net:3306');//DB_HOST:  generalmente suele ser "127.0.0.1"
 	define('DB_USER', 'rhoric');//Usuario de tu base de datos
 	define('DB_PASS', 'macewindu');//Contraseña del usuario de la base de datos
-	define('DB_NAME', 'PIXCRITS');//Nombre de la base de datos
+	define('DB_NAME', 'pixcrits');//Nombre de la base de datos
 
 	$con=@mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
     if(!$con){
